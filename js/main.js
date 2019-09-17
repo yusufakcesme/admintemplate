@@ -20,16 +20,13 @@ function profileOn() {
 
 }
 
-/*
+var nav_btn = document.querySelectorAll('.nav_btn');
 
-function datee() {
-	var today = new Date();
-	var dd = String(today.getDate()).padStart(2, '0');
-	var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-	var yyyy = today.getFullYear();!''
-	today = dd + '/' + mm + '/' + yyyy;
-
-	document.write(today);
+function activeBtn() {
+	removeActive();
+	this.classList.add("active");
 }
-*/
-
+function removeActive() {
+	nav_btn.forEach(item => item.classList.remove("active"));
+}
+nav_btn.forEach(item => item.addEventListener('click', activeBtn));
