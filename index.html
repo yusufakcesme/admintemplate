@@ -15,10 +15,10 @@
 		<h1>cms panel</h1>
 
 		<ul>
-			<li class="nav_btn active"><i class="fas fa-home"></i> Anasayfa</li>
-			<li class="nav_btn"><i class="fas fa-tools"></i> Ayarlar</li>
-			<li class="nav_btn"><i class="fas fa-book"></i> Hakkında</li>
-			<li class="nav_btn"><i class="fas fa-cogs"></i> SEO İşlemleri</li>
+			<li id="anasayfa" class="nav_btn active"><i class="fas fa-home"></i> Anasayfa</li>
+			<li id="ayarlar" class="nav_btn"><i class="fas fa-tools"></i> Ayarlar</li>
+			<li id="hakkinda" class="nav_btn"><i class="fas fa-book"></i> Hakkında</li>
+			<li id="seo" class="nav_btn"><i class="fas fa-cogs"></i> SEO İşlemleri</li>
 			<li class="nav_btn"><i class="fas fa-chevron-right"></i> Çıkış Yap</li>
 		</ul>
 	</nav>
@@ -42,11 +42,11 @@
 
 
 	<div class="panel-name">
-		<h2>Anasayfa - Admin Paneli</h2>
+		<h2><span id="page-name">Anasayfa</span> - Admin Paneli</h2>
 	</div>
 
 
-	<div class="info-section">
+	<div class="info-section" id="info-section">
 		
 		<div class="info-box">
 			<h3>Günlük Tıklanma</h3>
@@ -64,12 +64,20 @@
 			<h3>Toplam Tıklanma</h3>
 			<span>196.670</span>
 		</div>
-
-
-
 	</div>
 
+	<div class="panel-form" id="panel-form">
+		<form>
+			<input type="text" name="">
+			<input type="text" name="">
+		</form>
+	</div>		
 
+
+
+	<div class="hakkinda-panel" id="hakkinda-panel">
+		
+	</div>
 
 
 
