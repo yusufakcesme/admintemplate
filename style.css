@@ -135,6 +135,9 @@ header {
 	transition: 0.3s;
 
 }
+.info-box:hover {
+	height: 240px;
+}
 
 .info-box h3 {
 	padding: 10px;
